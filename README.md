@@ -7,6 +7,7 @@
 將頁面形成部分拆解成部件，方便複用，也讓 React Render 時可以以元件為單位去檢查有無變動，減少渲染的效能成本
 
 3. Props 和 State 差別在哪?
+
 props 由父元件傳下來，不可直接更改，需將該 prop 的 setState 一起傳入子元件做更改； state 則是當層元件本身的數據。
 
 4. 選擇⼀個曾經在專案中⽤過的元件週期，並介紹你是怎麼使⽤的?
@@ -40,7 +41,19 @@ Hook 前 Functional 沒有生命週期、state，出 hook 後都有，使用 fun
 Virtual DOM可能可以減少網頁渲染成本，元件化讓Component可以複用。
 
 11. React 有什麼缺點和限制?
+
+數據單向流，與原生js差距較大，使用JSX會較方便，若架設單頁式網站會導致SEO搜尋到空殼，需額外使用SSR的Next.js。
+
 12. 什麼是 Redux 或 context api?
+
+當祖元素甚至祖祖元素需要傳state到子元素時，用以管理資料，可以不用一層一層傳。
+
 13. 使⽤ Redux 的優點是什麼?
+
+當元件越來越多層，專案越來越龐大時，資料流仍方便存取。
+
 14. 為什麼你會想選擇 React?
+
+Virtual DOM 可能可以優化，元件能重覆利用，方便管理，JSX語法糖，相較於原生js與jquery操作DOM方便許多。
+
 15. 什麼是 react-hook-form?
