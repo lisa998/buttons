@@ -8,6 +8,7 @@
 props 由父元件傳下來，不可直接更改，需將該 prop 的 setState 一起傳入子元件做更改； state 則是當層元件本身的數據。
 
 4. 選擇⼀個曾經在專案中⽤過的元件週期，並介紹你是怎麼使⽤的?
+
 `componentDidMount` 時設定 `setInterval` 固定每秒增加1，在 `componentWillUnmount` 時 `clearInterval`
 
 5. Class 跟 Functional 元件的差別? 該怎麼選擇?
