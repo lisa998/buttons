@@ -1,70 +1,27 @@
-# Getting Started with Create React App
+1. 什麼是 React.js?
+一種 js 函式庫，用以整合 html、css、js 的框架，方便管理及開發
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+2. 什麼是元件? 為什麼元件的概念對 React 來說很重要?
+將頁面形成部分拆解成部件，方便複用，也讓 React Render 時可以以元件為單位去檢查有無變動，減少渲染的效能成本
 
-## Available Scripts
+3. Props 和 State 差別在哪?
+props 由父元件傳下來，不可直接更改，需將該 prop 的 setState 一起傳入子元件做更改； state 則是當層元件本身的數據。
 
-In the project directory, you can run:
+4. 選擇⼀個曾經在專案中⽤過的元件週期，並介紹你是怎麼使⽤的?
+`componentDidMount` 時設定 `setInterval` 固定每秒增加1，在 `componentWillUnmount` 時 `clearInterval`
 
-### `npm start`
+5. Class 跟 Functional 元件的差別? 該怎麼選擇?
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+6. 什麼是 React 中的 Events?
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+7. 什麼是 JSX?
+8. 什麼是 Virtual DOMs? ⼜是怎麼運作的?
+9. 你會怎麼 Debug ⽤ React 寫出來的網⾴應⽤? ⽤哪些⼯具?
+10. ⽤ React 的優點是什麼?
+11. React 有什麼缺點和限制?
+12. 什麼是 Redux 或 context api?
+13. 使⽤ Redux 的優點是什麼?
+14. 為什麼你會想選擇 React?
+15. 什麼是 react-hook-form?
